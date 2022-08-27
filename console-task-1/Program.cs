@@ -1,1 +1,2 @@
-﻿Console.WriteLine("Hello, World!");
+﻿string aName = "Michał";
+Console.WriteLine($"Hello {aName}!");
