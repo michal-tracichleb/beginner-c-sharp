@@ -16,9 +16,9 @@ namespace console_task_4
             Console.WriteLine($"The list has {names.Count} people in it");
 
             Console.WriteLine("============================");
-
-            names.Add("Piotrek");
+            
             names.Add("Przemek");
+            names.Add("Piotrek");            
             names.Remove("Ana");
 
             for (int i = 0; i  < names.Count; i++)
@@ -26,6 +26,29 @@ namespace console_task_4
                 Console.WriteLine($"Hello {names[i].ToUpper()}!"); // liczymy od 0 w tablicy
             }
             Console.WriteLine($"The list has {names.Count} people in it");
+
+            Console.WriteLine("============================");
+
+            var index = names.IndexOf("Przemek");
+            Console.WriteLine($"Imię Przemek jest na {index} miejscu");
+
+            index = names.IndexOf("Michał");
+            if (index != -1)
+            {
+                Console.WriteLine($"The name {names[index]} is at index {index}");
+            }
+
+                var notFound = names.IndexOf("Not Found");
+                Console.WriteLine($"When an item is not found, IndexOf returns {notFound}");
+
+            Console.WriteLine("============================");
+
+            names.Sort(); //sortuje od najmniejszej do największej
+            foreach (var name in names)
+            {
+                Console.WriteLine($"Hello {name.ToUpper()}!");
+            }
+
         }
     }
 }
