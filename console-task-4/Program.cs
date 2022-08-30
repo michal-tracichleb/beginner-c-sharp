@@ -49,6 +49,48 @@ namespace console_task_4
                 Console.WriteLine($"Hello {name.ToUpper()}!");
             }
 
+            Console.WriteLine("============================");
+
+            // list of the other types
+
+            var fibonacciNumbers = new List<int> { 1, 1 };
+
+            var previous = fibonacciNumbers[fibonacciNumbers.Count - 1];
+            var previous2 = fibonacciNumbers[fibonacciNumbers.Count - 2];
+
+            fibonacciNumbers.Add(previous + previous2);
+
+            foreach (var item in fibonacciNumbers)
+                Console.WriteLine(item);
+
+            //challenge - Try and write the code to generate the first 20 numbers in the sequence = answer 6765
+
+            Console.WriteLine("=======Challenge==========");
+
+            for (int i = 0; i < 17; i++) // 2 numbers in the list (20-2), lope start from 0 (18-1  i<17)
+            {
+                fibonacciNumbers.Add(fibonacciNumbers[fibonacciNumbers.Count - 1] + fibonacciNumbers[fibonacciNumbers.Count - 2]);
+                Console.WriteLine(fibonacciNumbers[fibonacciNumbers.Count - 1]);
+                Console.WriteLine(fibonacciNumbers.Count);
+            }
+
+            Console.WriteLine("=======Answer==========");
+
+            Console.WriteLine($"The 20th Fibonacci number is {fibonacciNumbers[fibonacciNumbers.Count - 1]}");
+
+            /* answer form course
+            var fibonacciNumbers = new List<int> {1, 1};
+
+            while (fibonacciNumbers.Count < 20)
+            {
+                var previous = fibonacciNumbers[fibonacciNumbers.Count - 1];
+                var previous2 = fibonacciNumbers[fibonacciNumbers.Count - 2];
+
+                fibonacciNumbers.Add(previous + previous2);
+            }
+            foreach (var item in fibonacciNumbers)
+                Console.WriteLine(item);
+            */
         }
     }
 }
