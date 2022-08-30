@@ -1,0 +1,15 @@
+C:\Users\StudentWSB\Desktop\BootCamp\C-sharp-pre-work\console-task-4\bin\Debug\net6.0\console-task-4.exe
+C:\Users\StudentWSB\Desktop\BootCamp\C-sharp-pre-work\console-task-4\bin\Debug\net6.0\console-task-4.deps.json
+C:\Users\StudentWSB\Desktop\BootCamp\C-sharp-pre-work\console-task-4\bin\Debug\net6.0\console-task-4.runtimeconfig.json
+C:\Users\StudentWSB\Desktop\BootCamp\C-sharp-pre-work\console-task-4\bin\Debug\net6.0\console-task-4.dll
+C:\Users\StudentWSB\Desktop\BootCamp\C-sharp-pre-work\console-task-4\bin\Debug\net6.0\console-task-4.pdb
+C:\Users\StudentWSB\Desktop\BootCamp\C-sharp-pre-work\console-task-4\obj\Debug\net6.0\console-task-4.csproj.AssemblyReference.cache
+C:\Users\StudentWSB\Desktop\BootCamp\C-sharp-pre-work\console-task-4\obj\Debug\net6.0\console-task-4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\StudentWSB\Desktop\BootCamp\C-sharp-pre-work\console-task-4\obj\Debug\net6.0\console-task-4.AssemblyInfoInputs.cache
+C:\Users\StudentWSB\Desktop\BootCamp\C-sharp-pre-work\console-task-4\obj\Debug\net6.0\console-task-4.AssemblyInfo.cs
+C:\Users\StudentWSB\Desktop\BootCamp\C-sharp-pre-work\console-task-4\obj\Debug\net6.0\console-task-4.csproj.CoreCompileInputs.cache
+C:\Users\StudentWSB\Desktop\BootCamp\C-sharp-pre-work\console-task-4\obj\Debug\net6.0\console-task-4.dll
+C:\Users\StudentWSB\Desktop\BootCamp\C-sharp-pre-work\console-task-4\obj\Debug\net6.0\refint\console-task-4.dll
+C:\Users\StudentWSB\Desktop\BootCamp\C-sharp-pre-work\console-task-4\obj\Debug\net6.0\console-task-4.pdb
+C:\Users\StudentWSB\Desktop\BootCamp\C-sharp-pre-work\console-task-4\obj\Debug\net6.0\console-task-4.genruntimeconfig.cache
+C:\Users\StudentWSB\Desktop\BootCamp\C-sharp-pre-work\console-task-4\obj\Debug\net6.0\ref\console-task-4.dll
